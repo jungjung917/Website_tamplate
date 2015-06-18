@@ -20,3 +20,7 @@ $(".Rcolor").click(function() {
 	$(".torso").css("border-color",rcolor);
 	$(".brain").css("background",rcolor);
 });
+/*$(".antena").click( function(){
+	for i
+
+});*/
