@@ -23,7 +23,9 @@
 .botton-control {
 	position:relative;
 	left: 140px;
-	top: -380px;}
+}
+
+
 .robot {
    margin: 10px 100px 0px 100px;
    border-radius: 50px;
@@ -31,7 +33,11 @@
    background: rgba(200,100,50,0.8);
    height: 480px;
    }
- 
+.sub-robot{
+        width:400px;
+	height: 430px;
+	position:relative;
+} 
 .beep { 
      position: relative;
      left: 200px;
@@ -149,7 +155,7 @@ img {
   -moz-transform: rotate(180deg);
   position: relative;
   top: -21px;
-  left: -545px;
+  left: -74px;
   }
 .foot {
   font-family: 'Poller One', verdana, arial, sans-serif;
