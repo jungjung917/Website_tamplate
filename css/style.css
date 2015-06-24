@@ -73,14 +73,14 @@ h4 { color: rgba(10,10,10,0.9) ;
 .project {
         margin-top:5px;
 	padding: 20px;
-        background-color:rgba(100,200,200,0.3);
+        background-color:rgba(200,200,200,0.5);
         border-radius: 10px;
 	color: rgba(120,20,20,0.9);
  }
 .research {
   margin-top:5px;
   padding: 20px;
-  background-color:rgba(200,200,200,0.5);
+  background-color:rgba(255,255,255,0.6);
   border-radius: 10px;
   color: rgba(120,20,20,0.9);
 }
@@ -102,7 +102,6 @@ h4 { color: rgba(10,10,10,0.9) ;
 
 .carousel-inner {
 	width: 85%;
-	height:440px;
 	margin: 0 auto;}
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img { 
@@ -117,21 +116,24 @@ border-radius: 10px;
 	margin:5px 0 0px auto;
 
 }
-.researchimg {padding: 0 10px 0 10px;
-}
+
+.research-project { 	
+	padding: 0px 85px 10px 85px;
+	}
+ 
+.researchimg {padding: 0px; }
 .researchimg p {	  
-	   color: rgba(120,20,20,0.9);
-           background: rgba(120,200,200,1);
-           background: linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,.1));
-	   background: -webkit-linear-gradient(bottom, rgba(120,200,200,0.7), rgba(120,200,200,0.3));
-           background: -moz-linear-gradient(bottom, rgba(0,0,0,0.5), rgba(0,0,0,.1));
+	   color: black;
+           background: rgba(120,200,200,0.3);
+           background: linear-gradient(bottom, rgba(120,200,200,0.5), rgba(120,200,200,.1));
+	   background: -webkit-linear-gradient(bottom, rgba(120,200,200,0.5), rgba(120,200,200,0.1));
+           background: -moz-linear-gradient(bottom, rgba(120,200,200,0.5), rgba(120,200,200,.1));
 	   padding: 10px;
-	   width: 96%;
 	   height: 15%;
-	   font-size: 20px;
-           text-align: justify;		
+	   font-size: 20px;		
 	   line-height: 20px;
-           border-radius: 5px;
+           border-bottom-left-radius: 5px;
+	   border-bottom-right-radius: 5px;
 	   position: absolute;
 	   bottom: 0;
 	   margin:0 auto;																		                        transition: height .5s;
@@ -144,8 +146,6 @@ border-radius: 10px;
 	opacity:0 ;}
 
 .show-description p{
-	height: 100px;
-	background: rgba(120,200,200,0.3);}
-.show-description  p  small {
+	height: 100px;}
+.show-description  p  small {	
 	opacity: 1;}
-
